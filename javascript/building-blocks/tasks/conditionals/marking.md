@@ -82,7 +82,7 @@ let score = 75;
 let machineActive = false;
 
 if(machineActive) {
-	switch (score) {
+	switch (true) {
 		case (score >= 0 && score < 20):
 		  response = 'That was a terrible score — total fail!';
 		  break;
